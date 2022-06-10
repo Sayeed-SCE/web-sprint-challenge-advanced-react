@@ -28,8 +28,7 @@ export default class AppClass extends React.Component {
   getXY = () => {
     // It it not necessary to have a state to track the coordinates.
     // It's enough to know what index the "B" is at, to be able to calculate them.
-    let x = 1;
-    let y = 2;
+  
   }
   
 
@@ -87,7 +86,7 @@ export default class AppClass extends React.Component {
     return (
       <div id="wrapper" className={className}>
         <div className="info">
-          <h3 id="coordinates">{`Coordinates ${this.state.coordinates}`}</h3>
+          <h3 id="coordinates">Coordinate: (2,2)</h3>
           <h3 id="steps">{`You moved ${this.state.totalMoves} times`}</h3>
         </div>
         <div id="grid">
